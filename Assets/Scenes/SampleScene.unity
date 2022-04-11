@@ -6136,33 +6136,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 319708654511345631, guid: e80cec84c653c894eb60947a742d4f75, type: 3}
-      propertyPath: m_GravityScale
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 319708654511345631, guid: e80cec84c653c894eb60947a742d4f75, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1548418970380802716, guid: e80cec84c653c894eb60947a742d4f75, type: 3}
       propertyPath: m_Name
       value: Ginger (player)
       objectReference: {fileID: 0}
-    - target: {fileID: 1548418970380802716, guid: e80cec84c653c894eb60947a742d4f75, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 1548418970380802719, guid: e80cec84c653c894eb60947a742d4f75, type: 3}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1548418970380802719, guid: e80cec84c653c894eb60947a742d4f75, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3.1624475
-      objectReference: {fileID: 0}
-    - target: {fileID: 1548418970380802719, guid: e80cec84c653c894eb60947a742d4f75, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3.9331846
       objectReference: {fileID: 0}
     - target: {fileID: 1548418970380802719, guid: e80cec84c653c894eb60947a742d4f75, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6203,14 +6183,6 @@ PrefabInstance:
     - target: {fileID: 1548418970380802719, guid: e80cec84c653c894eb60947a742d4f75, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6803344015697396870, guid: e80cec84c653c894eb60947a742d4f75, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 641ba118ac240014eae395e6f4f8077e, type: 2}
-    - target: {fileID: 7177409710435283321, guid: e80cec84c653c894eb60947a742d4f75, type: 3}
-      propertyPath: jumpSpeed
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e80cec84c653c894eb60947a742d4f75, type: 3}
