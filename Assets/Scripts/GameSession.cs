@@ -1,13 +1,16 @@
-{using System.Collections;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameSession : MonoBehaviour
 {
+    [SerializeField] int playerLives = 3;
    
    void Awake()
    {
-       int numGameSessions = FindObjectOfType<GameSession>().Length;
+       int numGameSessions = FindObjectsOfType<GameSession>().Length;
        if (numGameSessions > 1)
        {
            Destroy(gameObject);
@@ -33,7 +36,7 @@ public class GameSession : MonoBehaviour
     }
     void TakeLife()
     {
-        playerLives --;
+        playerLives--;
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
     }
